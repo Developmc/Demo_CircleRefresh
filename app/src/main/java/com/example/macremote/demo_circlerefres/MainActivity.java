@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         circleRefreshLayout = (CircleRefreshLayout)findViewById(R.id.refresh_layout) ;
         listView = (ListView)findViewById(R.id.listView) ;
         lists = new ArrayList<String>() ;
-        for(int i=0;i<10;i++)
+        for(int i=0;i<20;i++)
         {
             lists.add(i+" ") ;
         }
